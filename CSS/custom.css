@@ -1,0 +1,39 @@
+/* universal selector */
+*{
+    /* color: red; */
+     font-size: 20px; 
+}
+/* tag / element selector */
+h1{
+    color: green;
+}
+/* attitube selector */
+a[title=google]{
+    color: blue;
+    letter-spacing: 10px;
+
+}
+/* id selecotor  */
+#idone{
+    color: rgb(220, 85, 186);
+}
+/* class selector  */
+.classOne{
+    color: brown;
+    line-height: 30px;
+    text-indent: 40px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+/* descendent selector  */
+.desc a{
+    color: red;
+    text-decoration: none;
+}
+
+/* child selector  */
+.child > a{
+    color: green;
+    text-decoration: none;
+}
+
